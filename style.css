@@ -1,0 +1,101 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: azure;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:auto;
+    width: auto;
+    height: 100vh;
+    overflow-x: hidden;
+    padding: 0.5rem;
+    justify-content: auto;
+}
+
+.todo,.done{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin:5px;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 75%;
+}
+
+.container{
+    background-color: black;
+}
+
+.todo{
+    background-color: darkblue;
+    opacity: 0.9;
+}
+
+.done{
+    background-color: green;
+    opacity: 0.9;
+}
+
+#save{
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin: 5%;
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: greenyellow;
+    color: azure;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#load{
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin: 5%;
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    color: azure;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#add{
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin: 5%;
+    border: 1px solid greenyellow;
+    border-radius: 20px;
+    background-color: blue;
+    color: azure;
+    font-size: 25px;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.column{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+i{
+    color: white;
+}
